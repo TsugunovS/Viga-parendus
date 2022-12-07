@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy\__main__.py", line 45, in <module>
+    cli.main()
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy/..\debugpy\server\cli.py", line 444, in main
+    run()
+  File "c:\program files\microsoft visual studio\2022\community\common7\ide\extensions\microsoft\python\core\debugpy/..\debugpy\server\cli.py", line 285, in run_file
+    runpy.run_path(target_as_str, run_name=compat.force_str("__main__"))
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\lib\runpy.py", line 267, in run_path
+    code, fname = _get_code_from_file(run_name, path_name)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\lib\runpy.py", line 242, in _get_code_from_file
+    code = compile(f.read(), fname, 'exec')
+  File "C:\Users\opilane\source\Tsugunov.LOGITpv22\Viga parendus\Viga_parendus.py", line 4
+    a=float(input("Sisesta ruudu k�lje pikkus=> "))
+                                                 ^
+SyntaxError: (unicode error) 'utf-8' codec can't decode byte 0xfc in position 15: invalid start byte
+The thread 0x1 has exited with code 0 (0x0).
+The program 'python.exe' has exited with code 4294967295 (0xffffffff).
